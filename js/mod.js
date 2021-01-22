@@ -1,11 +1,11 @@
 let modInfo = {
-	name: "The Chord Tree",
+	name: "The Butt Tree",
 	id: "minor7",
 	author: "ace248952",
 	pointsName: "points",
 	discordName: "",
 	discordLink: "",
-	initialStartPoints: new Decimal (10), // Used for hard resets and new players
+	initialStartPoints: new Decimal (1), // Used for hard resets and new players
 	
 	offlineLimit: 1,  // In hours
 }
@@ -51,6 +51,7 @@ function addedPlayerData() { return {
 
 // Display extra things at the top of the page
 var displayThings = [
+	//return "hello"
 ]
 
 // Determines when the game "ends"
